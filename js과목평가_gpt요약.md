@@ -9,6 +9,11 @@
   - `PascalCase` : 클래스, 생성자
   - `SNAKE_CASE` : 변경되지 않는 상수
 
+**호이스팅**
+- 변수와 함수 선언이 해당 스코프의 최상단으로 끌어올려진 것처럼 동작하는 현상
+- var 호이스팅 : 선언과 동시에 undefined
+- let과const 호이스팅 : 호이스팅은 되지만, 초기화 되지 않음 , 선언문 이전에 변수에 접근하면 ReferenceError 발생, 이 구간을 TDZ(Temporal Dead Zone, 일시적 사각지대)라고 함
+
 **2) var / let / const 차이**
 
 - `var`
